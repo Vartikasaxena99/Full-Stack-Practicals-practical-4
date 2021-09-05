@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+      .navbar {
+        border-radius: 3px;
+        background-color: gray;
+      }
+      .navbar li
+      {
+          float:left;
+          list-style: none;
+          margin:20px 3px;
+      }
+      .navbar ul
+      {
+          overflow:auto;
+      }
+      .navbar li a
+      {
+          padding: 2px 30px 20px 100px;
+          text-decoration:none;
+      }
+      .background-image
+      {
+        height:800px;
+        margin:20px;
+        position:relative;
+
+      }
+      .background-text
+      {
+        position: absolute;
+        top:10px;
+        left:10px;
+        
+        color: black;
+      }
+      .banner {
+        width: 100%;
+
+        
+        margin-top:10px;
+        
+      }
+      .circular {
+        display: flex;
+        
+        margin:25px;
+      }
+      .circle {
+        height: 250px;
+        width: 25%;
+        
+        
+        margin-right: 40px;
+        
+      }
+      .circle img
+      {
+        border-radius: 100%;
+      }
+      /*.circle {  
+        width: 25%;
+        height: 300px;
+        margin-left: 10px;
+        
+        border-radius: 100%;
+        background-color: yellow;
+      }
+    */
+      #circular {
+        width: 100%;
+        margin: 15px auto;
+      }
+
+      #circular-container::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+      #circle2 {
+      }
+
+      #circle2::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      .circle2 ,.rectangle {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        margin-top:20px;
+        margin-bottom:20px;
+      }
+      .left {
+        width: 50%;
+        height: 600px;
+        background-color: gray;
+        margin-right: 20px;
+        padding:10px;
+      }
+      .right {
+        width: 50%;
+        height: 600px;
+      }
+      .box1,.box2,.box3{
+        height: 190px;
+        background-color: red;
+        margin-bottom: 15px;
+        position: relative;
+      }
+      .text
+      {
+        position:absolute;
+        top:0px;
+        left:45%;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .con1,.con2,.con3,.con4{
+          background-color: red;
+          margin-right: 5px;
+          width: 24%;
+      }
+      .footer{
+          margin-top: 20px;
+          text-align: center;
+          width: 100%;
+          padding:20px;
+          background-color: chocolate;
+      }
+      
+      .header p
+      {
+        text-align: center;
+        line-height: 70px;
+      }
+     
+      #container
+        {
+            display: inline-flex;
+        }
+        body{
+            background-color: rgb(214, 111, 104);
+        }
+        .box{
+            width: 320px;
+            background-color: blueviolet;
+            border:2px solid black;
+            margin-bottom:10px;
+            text-align: justify;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+            border: 5px solid rgb(43, 15, 15);
+        }
+         #box1{
+            background-color: blue;
+            margin-left: 40px;
+        }
+        #box2{
+            background-color:pink;
+        }
+        #box3{
+            background-color: blueviolet;
+        }
+        #box4{
+            background-color: greenyellow;
+        }
+        .box img 
+        {
+            width:100%;
+            height:100px;
+            border-radius: 20px;
+        }
+        .box h2{
+            text-align: center;
+        }
+       .mybutton
+        {
+           display:block;
+           margin-top: 10px;
+           text-decoration: none;
+           color: white;
+           font-family: Arial;
+           background-color: rgb(12, 16, 24);
+           padding: 10px 20px;
+           border-radius: 20px;
+        }
+        .mybutton:hover
+        {
+            background-color: rgb(224, 54, 134);
+        }
+        .FOOTEE
+    </style>
+  </head>
+  <body>
+    <!--External Linking-->
+
+    <div class="container1">
+      <div class="navbar">
+        <a name="navbar"></a>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about"">ABOUT US</a></li>
+            <li><a href="#teammembers">TEAM</a></li>
+            <li><a href="#technologies">TECHNOLOGIES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <div class="background-image">
+        <img src="Practical-8.jpg" alt="" width="100%" height="800px"/>
+        <div class="background-text">
+          <h1>Practical-8</h1>
+        </div>
+      </div>
+
+      <div class="banner">
+      <a name="teammembers"></a>
+      <h4 style="text-align: center;">Teammembers</h4>
+      <div class="circular">
+        
+        <div class="circle"><img src="1.png" alt="" /></div>
+        <div class="circle"><img src="2.png" alt="" /></div>
+        <div class="circle"><img src="3.png" alt=""/> </div>
+        <div class="circle"><img src="4.png" alt=""/> </div>
+      </div>
+    </div>
+      <h4 style="text-align: center;">ABOUT US</h4>
+      <div class="circle2">
+      <a name="about"></a>
+        <div class="left">
+           <p>Possimus et obcaecati cupiditate non earum tempora, officia fugiat eos natus repudiandae exercitationem delectus sunt nobis maiores est veritatis amet iusto consequuntur? Culpa earum voluptas assumenda consequuntur neque commodi ipsam nisi esse voluptate officiis, minus, eum rerum suscipit modi nostrum distinctio architecto! Recusandae eius ipsum vero voluptate incidunt placeat tenetur animi quos nisi ab quo mollitia dignissimos blanditiis consectetur molestias, quia quas aliquam ratione rerum! Accusantium nihil earum doloremque sint quas eaque nesciunt animi culpa, distinctio alias veritatis atque, fuga molestiae cupiditate. Dicta blanditiis consequuntur laudantium cumque praesentium ea debitis! Magnam esse explicabo velit, perferendis in similique ipsam mollitia molestiae adipisci accusamus nihil cumque voluptas iste iure asperiores earum eum excepturi corrupti, quas porro itaque deserunt! Libero cum cupiditate tempore asperiores repellendus dolorum? Quos accusamus, minima ut veritatis illo hic omnis nostrum non officia consequatur mollitia aut assumenda asperiores maiores ullam laboriosam repellendus adipisci dolores ea, sed magni explicabo est! Non fugiat error voluptates earum autem quod ipsam dignissimos quae? Incidunt at cumque veniam. Ullam qui a esse labore error dolores itaque exercitationem, ratione delectus alias consequatur fuga deleniti quae consequuntur suscipit quidem amet neque! Eaque, totam laudantium nulla voluptatem deleniti eum provident impedit illo natus minus nisi dolorem itaque cum ea quidem molestias corrupti blanditiis numquam veritatis ullam ut atque architecto. Voluptate quam aperiam nemo, ipsum animi architecto fuga, placeat itaque eum voluptas accusantium deserunt reiciendis ad consectetur autem beatae impedit. Quas quam quaerat veritatis iusto sunt tempora nostrum adipisci, beatae, quis dolorum, doloribus placeat odio. Placeat minus fugit repellendus aspernatur accusamus reiciendis dolorum magni. Accusantium exercitationem, doloribus, itaque eum dolores pariatur id sequi praesentium dolore similique, nihil molestias quis nobis vero molestiae nostrum natus iste. Vero laudantium doloremque tempora sequi eligendi deserunt assumenda omnis nisi aspernatur doloribus excepturi natus distinctio maiores quam, amet rerum aperiam consequuntur possimus nam necessitatibus? Adipisci, pariatur aspernatur. Eaque, quis porro voluptas soluta rerum sunt eius error incidunt, sit blanditiis tempore cumque ipsam, assumenda enim corporis. Rem ab, ad quibusdam quas obcaecati libero voluptatum tempora repellat, esse unde corporis ducimus porro sint itaque, mollitia id? Nihil laboriosam praesentium a magni neque delectus, rem cum consectetur ipsam pariatur voluptates dolorum nostrum sunt rerum voluptatem maxime culpa odit et tempora minima. Adipisci ducimus a, molestiae dolorem earum iusto harum quis porro labore. Illo molestias adipisci voluptas! Nobis iste exercitationem saepe accusamus! Facilis maiores dolores deserunt perferendis. Mollitia, fugiat facilis praesentium sed vitae nihil consequuntur sunt porro pariatur omnis ut.</p>
+        </div>
+        <div class="right">
+          <div class="box1"><img src="p1.jpg" alt=""  height="190px" width="100%"/>
+            <div class="text">Project1</div>
+          </div>
+          <div class="box2"><img src="p2.jpeg" alt="" height="190px" width="100%"/>
+            <div class="text">Project2</div> 
+          </div>
+          <div class="box3"><img src="p3.jpg" alt="" height="190px" width="100%" />
+            <div class="text">Project3</div>
+          </div>
+        </div>
+      </div>
+      <h4 style="text-align: center;">Technologies Used</h4>
+      <div id="container">
+        <a name="technologies"></a>
+        <div class="box" id="box1">
+        <div class="image-heading">
+            <img src="HTML.jpeg" alt="" width=100% height="150px">
+        </div>
+        <h3 style="margin-top: 5px;margin-bottom: 5px; text-align: center">Introduction to HTML</h3>
+        <p style="text-align: center;color: white;font-family:cursive;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis facere soluta recusandae. Consequatur doloremque alias aperiam modi sit dolorum exercitationem, debitis delectus vitae tempora.</p>
+        <div class="image" style="text-align:center">
+        <a href="HTML.html" class="mybutton" >Read More</a>
+        </div>
+    </div>
+        <div class="box" id="box2">
+            <div class="image-heading">
+                <img src="CSS.jpeg" alt="" width=100% height="150px">
+                </div>
+        <h3 style="margin-top: 5px;margin-bottom: 5px; text-align: center">Introduction to CSS</h3>
+        <p style="text-align: center;color: white;font-family:cursive;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis facere soluta recusandae. Consequatur doloremque alias aperiam modi sit dolorum exercitationem, debitis delectus vitae tempora.</p>
+        <div class="image" style="text-align:center">
+            
+            <a href="CSS.html" class="mybutton" >Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box3">
+            <div class="image-heading">
+                <img src="JS.jpeg" alt="" width=100% height="150px">
+                </div>
+        <h3 style="margin-top: 5px;margin-bottom: 5px; text-align: center">Introduction to JS</h3>
+        <p style="text-align: center;color: white;font-family:cursive">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis facere soluta recusandae. Consequatur doloremque alias aperiam modi sit dolorum exercitationem, debitis delectus vitae tempora.</p>
+        <div class="image" style="text-align:center">
+            <a href="JS.html" class="mybutton" >Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box4">
+            <div class="image-heading">
+                <img src="B.jpeg" alt="" width=100% height="150px">
+                </div>
+        <h3 style="margin-top: 5px;margin-bottom: 5px; text-align: center">Introduction to Bootstrap</h3>
+        <p style="text-align: center;color: white;font-family:cursive">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis facere soluta recusandae. Consequatur doloremque alias aperiam modi sit dolorum exercitationem, debitis delectus vitae tempora.</p>
+        <div class="image" style="text-align:center">
+            <a href="Bootstrap.html" class="mybutton" >Read More</a>
+            </div>    
+    </div>
+        </div>
+      <h4 style="text-align: center;">CONTACT</h4>
+      <div class="footer">
+        <a name="contact"></a>
+        Website templete for practical
+        <a href="https://www.beta-labs.in/" >&copy;BETA LABS</a>
+        <p><a href="#navbar">Back to top</a></p>
+      </div>
+    </div>
+  </body>
+</html>
