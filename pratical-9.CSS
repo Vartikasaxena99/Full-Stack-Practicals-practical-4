@@ -157,6 +157,7 @@
   
   .box {
     border-radius: 10px;
+    
     background-color: gainsboro;
     width: 300px;
     padding: 10px;
@@ -388,7 +389,7 @@
     {
         display: flex;
         flex-wrap: wrap;
-        gap:60px;
+        gap:150px;
     }
     .innerContainer
     {
